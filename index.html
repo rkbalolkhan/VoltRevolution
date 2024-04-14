@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>VoltRevolution</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">VoltRevolution</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#why" class="nav__link">Why EVs?</a>
+            </li>
+            <li class="nav__item">
+              <a href="#how" class="nav__link">How EVs Work?</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <img src="assets/img/home1.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Charging Ahead</span>
+            <h1 class="home__data-title">
+              Sparking <br />
+              a
+              <b
+                >Greener <br />
+                Tommorow</b
+              >
+            </h1>
+            <a href="#why" class="button">How??</a>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title"
+                >Driving Change: The Top Reasons to Choose Electric
+                Vehicles</span
+              >
+              <a
+                href=""
+                class="button button--flex button--link home__info-button"
+              >
+                More <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="assets/img/home2.jpg" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Welcome to <br />
+              VoltRevolution
+            </h2>
+            <p class="about__description">
+              At VoltRevolution, we believe that every individual has the power
+              to make a difference in the fight against pollution. By choosing
+              electric vehicles, you're not just upgrading your mode of
+              transportation; you're contributing to a significant reduction in
+              harmful emissions that pollute our air and harm our health.
+            </p>
+            <a href="#contact" class="button">Join the Revolution</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/about1.png" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="assets/img/about2.png" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why section" id="why">
+        <h2 class="section__title">
+          Revitalizing India's Cities <br />
+          Combatting Pollution with Electric Mobility
+        </h2>
+
+        <div class="why__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="why__card swiper-slide">
+              <img src="assets/img/delhi1.jpeg" alt="" class="why__img" />
+              <div class="why__data">
+                <h2 class="why__title">Delhi</h2>
+                <div class="why__description">
+                  <span>AQI: </span
+                  ><span class="aqi">Click here to update</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="why__card swiper-slide">
+              <img src="assets/img/patna1.jpg" alt="" class="why__img" />
+              <div class="why__data">
+                <h2 class="why__title">Patna</h2>
+                <div class="why__description">
+                  <span>AQI: </span
+                  ><span class="aqi">Click here to update</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="why__card swiper-slide">
+              <img src="assets/img/kaithal1.jpg" alt="" class="why__img" />
+              <div class="why__data">
+                <h2 class="why__title">Faridabad</h2>
+                <div class="why__description">
+                  <span>AQI: </span
+                  ><span class="aqi">Click here to update</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="why__card swiper-slide">
+              <img src="assets/img/bhiwadi1.jpg" alt="" class="why__img" />
+              <div class="why__data">
+                <h2 class="why__title">Noida</h2>
+                <div class="why__description">
+                  <span>AQI: </span
+                  ><span class="aqi">Click here to update</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-section section">
+        <div class="why-container">
+          <div class="why-container-left">
+            <h2 class="why-heading" onmouseleave="this.style.opacity='0.5'">
+              Environmental Impact
+            </h2>
+            <h2 class="why-heading" onmouseleave="this.style.opacity='0.5'">
+              Cost Savings
+            </h2>
+            <h2 class="why-heading" onmouseleave="this.style.opacity='0.5'">
+              Innovative Technology
+            </h2>
+            <h2 class="why-heading" onmouseleave="this.style.opacity='0.5'">
+              Health Benefits
+            </h2>
+            <h2 class="why-heading" onmouseleave="this.style.opacity='0.5'">
+              Driving Pleasure
+            </h2>
+          </div>
+          <div class="why-container-right">
+            <p class="why-content" style="display: block">
+              Electric vehicles produce zero tailpipe emissions, meaning they
+              don't contribute to air pollution and climate change like
+              traditional vehicles. By driving an EV, you're directly reducing
+              your carbon footprint and helping to protect our planet for future
+              generations.
+            </p>
+            <p class="why-content">
+              With lower fuel and maintenance costs compared to conventional
+              vehicles, EVs can save you money in the long run. Plus, with
+              government incentives and rebates available in many regions, the
+              upfront cost of purchasing an EV is becoming increasingly
+              affordable.
+            </p>
+            <p class="why-content">
+              Electric vehicles are at the forefront of automotive innovation,
+              featuring advanced technology like regenerative braking, instant
+              torque, and smart connectivity features. Driving an EV isn't just
+              eco-friendly; it's also an exciting and futuristic experience.
+            </p>
+            <p class="why-content">
+              By reducing air pollution, electric vehicles contribute to
+              improved air quality and public health. Breathing cleaner air
+              means fewer respiratory illnesses, allergies, and other health
+              issues, leading to a happier and more vibrant community.
+            </p>
+            <p class="why-content">
+              Electric vehicles offer a smooth, quiet, and responsive driving
+              experience that's hard to match with traditional vehicles. Say
+              goodbye to noisy engines and hello to the serene tranquility of
+              electric driving.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="compare-vehicles section">
+        <table id="Evs_comparison_table">
+          <thead>
+            <tr>
+              <th class="comparison-hide comparison-head"></th>
+              <th class="comparison-default comparison-head">
+                Electric Vehicles (EVs)
+              </th>
+              <th class="comparison-head">Non-Electric Vehicles (Non-EVs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="comparison-data">Zero Tailpipe Emissions</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Lower Fuel Costs</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Reduced Maintenance Costs</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Government Incentives</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Fuel Price Stability</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Noise Pollution</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Acceleration</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Depreciation Rate</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="comparison-data">Environmental Impact</td>
+              <td class="comparison-default comparison-data">
+                <span class="comparison-tick">&#10004;</span>
+              </td>
+              <td class="comparison-data">
+                <span class="comparison-tick">&#10006;</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="how section" id="how">
+        <h2 class="section__title">
+          Electric Insights <br>
+          Exploring the Inner Workings of EVs</h2>
+
+        <section class="how-section section">
+          <div class="how-container">
+            <div class="how-container-left">
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Battery System
+              </h2>
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Electric Motor
+              </h2>
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Power Electronics
+              </h2>
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Regenerative Braking
+              </h2>
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Charging Infrastructure
+              </h2>
+              <h2 class="how-heading" onmouseleave="this.style.opacity='0.5'">
+                Vehicle Control Systems
+              </h2>
+            </div>
+            <div class="how-container-right">
+              <p class="how-content" style="display: block">
+                The heart of an electric vehicle is its battery system. EV
+                batteries store electrical energy that powers the vehicle's
+                electric motor. These batteries are typically lithium-ion
+                (Li-ion) batteries, which offer high energy density and
+                long-lasting performance. The size and capacity of the battery
+                pack determine the range and performance of the electric
+                vehicle.
+              </p>
+              <p class="how-content">
+                Electric vehicles are propelled by one or more electric motors.
+                These motors convert electrical energy from the battery into
+                mechanical energy to drive the wheels of the vehicle. Electric
+                motors are highly efficient and offer instant torque, providing
+                smooth and responsive acceleration.
+              </p>
+              <p class="how-content">
+                Power electronics play a crucial role in managing the flow of
+                electrical energy between the battery, motor, and other vehicle
+                systems. This includes components such as inverters, converters,
+                and controllers, which regulate voltage, current, and frequency
+                to optimize performance and efficiency.
+              </p>
+              <p class="how-content">
+                One unique feature of electric vehicles is regenerative braking.
+                When the driver applies the brakes, the electric motor acts as a
+                generator, converting kinetic energy from the moving vehicle
+                back into electrical energy. This energy is then fed back into
+                the battery, helping to extend the vehicle's range and improve
+                overall efficiency.
+              </p>
+              <p class="how-content">
+                To recharge the battery of an electric vehicle, drivers can use
+                various charging options, including home charging stations,
+                public charging stations, and fast-charging networks. Charging
+                times vary depending on the charging method and the capacity of
+                the battery, but advancements in charging technology are making
+                electric vehicle charging faster and more convenient than ever
+                before.
+              </p>
+              <p class="how-content">
+                Electric vehicles feature advanced vehicle control systems that
+                monitor and manage various vehicle functions, including battery
+                temperature, energy consumption, and driving mode selection.
+                These systems ensure optimal performance, efficiency, and safety
+                while driving an electric vehicle.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+      
+
+      <section class="subscribe section" id="contact">
+        <div class="subscribe__bg">
+          <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">
+              Subscribe Our <br />
+              Newsletter
+            </h2>
+            <p class="subscribe__description">
+              Subscribe to our newsletter and get a special 30% discount.
+            </p>
+
+            <form action="" class="subscribe__form">
+              <input
+                type="text"
+                placeholder="Enter email"
+                class="subscribe__input"
+              />
+
+              <button class="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsor section">
+        <div class="sponsor__container container grid">
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors1.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors2.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors3.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors4.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors5.png" alt="" class="sponsor__img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">VoltRevolution</h3>
+            <p class="footer__description">
+              Join us in promoting the adoption of electric vehicles (EVs) and empowering individuals to make the switch to sustainable transportation.
+            </p>
+            <div>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">About</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Features</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">New & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Insights</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Support us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2021 Bedimcode. All rigths reserved.
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
