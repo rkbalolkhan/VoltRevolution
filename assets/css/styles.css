@@ -597,20 +597,20 @@ input {
 table#Evs_comparison_table .comparison-head {
   color: #fff;
   font-size: 20px;
-  background: #a470afe0;
+  background: #14505Ce0;
 }
 table#Evs_comparison_table .comparison-head:first-child {
   background: transparent;
 }
 table#Evs_comparison_table td {
-  background: rgb(164, 112, 175);
+  background: #14505C;
 }
 table#Evs_comparison_table td {
   padding: 20px;
   font-size: 15px;
 }
 table#Evs_comparison_table tr td:first-child {
-  background: #592C85;
+  background: #04191d;
   color: #fff;
   text-align: center;
 }
